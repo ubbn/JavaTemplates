@@ -1,0 +1,1 @@
+Simple, yet useful templates for Java
