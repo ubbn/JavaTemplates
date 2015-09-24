@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author ubbn
  * 
  * Simple template to read integers from given file to int array
+ * Yet, it is not fastest, but simple & quick for typing.
  *
  */
 public class FileReader {
