@@ -1,7 +1,5 @@
 # Intellij
-out/
-.idea/
+out
+.idea
 *.iml
 *.iws
-
-
