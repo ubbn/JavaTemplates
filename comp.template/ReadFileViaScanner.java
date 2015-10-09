@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Yet, it is not fastest, but simple & quick for typing.
  *
  */
-public class FileReader {
+public class ReadFileViaScanner {
 	static int[] numbers;
 	
 	public static void ReadFile(String fileName)
