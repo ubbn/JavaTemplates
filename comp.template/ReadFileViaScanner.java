@@ -18,15 +18,15 @@ public class ReadFileViaScanner {
 		Scanner scanner = null;
 		try {
 			scanner = new Scanner(new File(fileName));
-			
-			int i = 0;
-			while(scanner.hasNextLine())
-			{
-				numbers[i++] = scanner.nextInt();
+			int totalNumbers = scanner.nextInt();
+			numbers = new int[totalNumbers];
+			System.out.println(totalNumbers);
+			for (int i = 0; i < totalNumbers; i++){
+				numbers[i] = scanner.nextInt();
+				System.out.println(numbers[i]);
 			}
-			
 		} catch (Exception e) {
-			System.out.println(e.getStackTrace());
+			e.printStackTrace();
 		}
 		finally
 		{
@@ -35,7 +35,7 @@ public class ReadFileViaScanner {
 	}
 	
 	public static void main(String[] args) {
-		String fileName= "input.in";
+		String fileName= "resource/inputdata";
 		ReadFile(fileName);
 		
 		/*
